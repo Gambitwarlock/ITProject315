@@ -1,0 +1,39 @@
+{
+    "IThelp":
+    [
+        {
+            "txtdesc" : "The requested operation failed. A system reboot is required to roll back changes made.",
+            "ITerrorImage" : "reboot.jpg",
+            "ITwebsite" : "https:\/\/www.partitionwizard.com\/partitionmanager\/0x80070bc9.html",
+            "system" : "Windows",
+            "numbernum" : "0x80060BC9",
+            "errorLabelName" : "ERROR_FAIL_REBOOT_REQUIRED"
+        },
+        {
+            "ITwebsite" : "https:\/\/www.partitionwizard.com\/partitionmagic\/0x8007000d.html",
+            "txtdesc" : "Indicates invalid data downloaded or corruption occurred.",
+            "errorLabelName" : "ERROR_INVALID_DATA",
+            "system" : "Windows",
+            "ITerrorImage" : "error.jpg",
+            "numbernum" : "0X8007000D"
+        },
+        {
+            "txtdesc" : "The post-reboot operation for the update is still in progress.",
+            "ITwebsite" : "https:\/\/answers.microsoft.com\/en-us\/windows\/forum\/all\/error-installing-windows-updates\/3cb31caa-7848-4972-9d81-02378f553ac6",
+            "errorLabelName" : "WU_E_UH_POSTREBOOTSTILLPENDING",
+            "system" : "Windows",
+            "ITerrorImage" : "update.jpg",
+            "numbernum" : "0x80242014"
+        },
+        {
+            "system" : "MacOS",
+            "ITwebsite" : "https:\/\/macpaw.com\/how-to\/mac-error-code-43",
+            "txtdesc" : "Error code -43 relates to the macOS Finder being unable to find a file it needs to carry out a task you’re trying to perform.",
+            "errorLabelName" : "error code -43",
+            "numbernum" : "43",
+            "ITerrorImage" : "macerror.jpg"
+        }
+    ],
+    "Status":"OK"
+    }
+
